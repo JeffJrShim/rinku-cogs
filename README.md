@@ -1,0 +1,2 @@
+# rinku-cogs
+for hajime
