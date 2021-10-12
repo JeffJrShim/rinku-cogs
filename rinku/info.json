@@ -1,0 +1,23 @@
+{#
+`required_cogs`, `requirements`, `min_bot_version`, `hidden`, and `disabled`
+are added here for convenience, but they're not part of cookiecutter template.
+-#}
+{% set authors = cookiecutter.authors.split(";") -%}
+{% set tags = cookiecutter.tags.split() -%}
+{
+    "name": "rinku",
+    "short": "cogs made for rinku",
+    "description": "?",
+    "end_user_data_statement": "This cog doesn't persistently store data about users.",
+    {% if cookiecutter.install_msg -%}
+    "install_msg": "Thanks for installing. If you're not Raiden, uninstall this cog right now.",
+    {% endif -%}
+    "author": {{JeffJrShim|Raiden}},
+    "required_cogs": {},
+    "requirements": [],
+    "tags": {},
+    "min_bot_version": "3.4.14",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
