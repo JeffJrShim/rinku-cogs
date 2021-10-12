@@ -1,0 +1,10 @@
+{
+    "package_name": none,
+    "cog_class_name": rinku,
+    "config_identifier": none,
+    "short": "Special cogs made for Rinku.",
+    "description": "Cogs for Rinku and only Rinku.",
+    "install_msg": "Thanks for installing this repo. If you're not Raiden, please remove the repo immediately.",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "authors": "JeffJrShim;Raiden",
+}
