@@ -9,14 +9,14 @@ class Rinku(commands.Cog):
 
     @commands.command()
     async def usercount(self, ctx):
-        """This does stuff!"""
+        """Check my user count!"""
         users=len(self.bot.users)
         await ctx.send(f"I currently have {users} users.")
 
     @commands.command()
     async def membercount(self, ctx):
         """Shows a guilds member count."""
-        mc=len(guild.members)
+        mc=len(ctx.guild.members)
         await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}")
 
     @commands.command()
