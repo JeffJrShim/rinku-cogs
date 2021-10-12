@@ -1,4 +1,5 @@
 from redbot.core import commands
+import discord
 
 class Rinku(commands.Cog):
     """Hajime's personal cog."""
@@ -9,7 +10,7 @@ class Rinku(commands.Cog):
     @commands.command()
     async def usercount(self, ctx):
         """This does stuff!"""
-        users=len(bot.users)
+        users=len(self.bot.users)
         await ctx.send(f"I currently have {users} users.")
 
     @commands.command()
