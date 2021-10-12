@@ -18,7 +18,6 @@ class Rinku(commands.Cog):
         mc=len(guild.members)
         await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}")
 
-    @commands.is_hidden(hidden=true)
     @commands.command()
     async def happyaround(self,ctx):
         """Try it and see."""
