@@ -23,3 +23,9 @@ class Rinku(commands.Cog):
     async def happyaround(self,ctx):
         """Try it and see."""
         await ctx.send("DONUTS!")
+
+    @commands.command()
+    async def cmdcount(self,ctx):
+        """How many commands do I have?"""
+        counter=len(self.bot.commands)
+        await ctx.send(f"I currently have {counter} commands. Have you use all of them? <:HajimePeek:877032884668620822>")
