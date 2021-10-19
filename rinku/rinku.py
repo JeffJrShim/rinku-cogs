@@ -38,6 +38,13 @@ class Rinku(commands.Cog):
         await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
         await asyncio.sleep(1)
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        await asyncio.sleep(30)
+        await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
+        
     @commands.command()
     async def cmdcount(self,ctx):
         """How many commands do I have?"""
