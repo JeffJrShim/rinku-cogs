@@ -9,7 +9,7 @@ try:
     import psutil
 except ModuleNotFoundError:
     psutil = False
-
+import asyncio
 import discord
 from redbot.core import Config, commands
 from redbot.core.utils.chat_formatting import bold, box, humanize_number, humanize_timedelta
@@ -36,6 +36,7 @@ class Rinku(commands.Cog):
     async def happyaround(self,ctx):
         """Try it and see."""
         await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
+        asyncio.sleep(1)
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
     @commands.command()
     async def cmdcount(self,ctx):
