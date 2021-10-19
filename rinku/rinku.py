@@ -30,12 +30,12 @@ class Rinku(commands.Cog):
     async def membercount(self, ctx):
         """Shows a guilds member count."""
         mc=len(ctx.guild.members)
-        await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}")
+        await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}.")
 
     @commands.command()
     async def happyaround(self,ctx):
         """Try it and see."""
-        await ctx.send("DONUTS!")
+        await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
 
     @commands.command()
     async def cmdcount(self,ctx):
