@@ -38,7 +38,7 @@ class Rinku(commands.Cog):
         await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
         await asyncio.sleep(1)
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
-        await asyncio.sleep(30)
+        await asyncio.sleep(10)
         await ctx.send("HERE COMES THE DOOOOOOOOOOONUTS SPAM!")
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
