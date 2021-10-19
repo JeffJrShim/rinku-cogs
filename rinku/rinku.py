@@ -33,6 +33,7 @@ class Rinku(commands.Cog):
         await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}.")
 
     @commands.command()
+    @commands.max_concurrency(1, commands.BucketType.channel)
     async def happyaround(self,ctx):
         """Try it and see."""
         await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
