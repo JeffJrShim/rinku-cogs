@@ -41,4 +41,4 @@ class Rinku(commands.Cog):
     async def cmdcount(self,ctx):
         """How many commands do I have?"""
         counter=humanize_number(len(set(self.bot.walk_commands())))
-        await ctx.send(f"I currently have {counter} commands. Have you use all of them? <:HajimePeek:877032884668620822>")
+        await ctx.send(f"I currently have {counter} commands. Have you used all of them? <:HajimePeek:877032884668620822>")
