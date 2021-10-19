@@ -36,7 +36,7 @@ class Rinku(commands.Cog):
     async def happyaround(self,ctx):
         """Try it and see."""
         await ctx.send("DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTS!")
-        asyncio.sleep(1)
+        await asyncio.sleep(1)
         await ctx.send("\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩\n🍩🍩🍩🍩🍩")
     @commands.command()
     async def cmdcount(self,ctx):
