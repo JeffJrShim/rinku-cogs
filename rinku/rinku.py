@@ -1,5 +1,18 @@
 from redbot.core import commands
 import discord
+import contextlib
+import logging
+import math
+from datetime import datetime, timedelta
+
+try:
+    import psutil
+except ModuleNotFoundError:
+    psutil = False
+
+import discord
+from redbot.core import Config, commands
+from redbot.core.utils.chat_formatting import bold, box, humanize_number, humanize_timedelta
 
 class Rinku(commands.Cog):
     """Hajime's personal cog."""
