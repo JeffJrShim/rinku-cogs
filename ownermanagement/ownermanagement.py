@@ -1,4 +1,10 @@
-from redbot.core import commands
+from discord.ext import commands
+from redbot.core import commands 
+from typing import Union
+import humanize
+from redbot.core.utils.chat_formatting import box, humanize_list
+import discord
+import random
 
 class OwnerManagement(commands.Cog):
     """Owner management utilities."""
