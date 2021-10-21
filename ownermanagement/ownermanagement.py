@@ -22,3 +22,12 @@ class OwnerManagement(commands.Cog):
         self.bot.owner_ids.add(user.id)
         msg=f"{user} is now a bot owner. Do note that this user currently **has access to everything on the bot, including being able to remove you from ownership** If you've done this by mistake, please do `{ctx.prefix}owner remove {user.id}`"
         await ctx.send(msg)
+
+    @owner.command(invoke_without_command="True")
+    @commands.is_owner()
+    async def remove(self, ctx, *, user: discord.User):
+        """Removes an owner from the bot."""
+        user=self.bot.get_user(user.id)
+        self.bot.owner_ids.remove(user.id)
+        msg=f"{user} is no longer a bot owner."
+        await ctx.send(msg)
