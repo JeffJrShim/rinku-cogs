@@ -1,12 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
-    "author": ["JeffJrShim#2396"],
-    "name": "OwnerManagement",
-    "install_msg": "**__READ THE FOLLOWING BEFORE PROCEEDING{
-    "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
-    "author": ["JeffJrShim#2396"],
-    "name": "OwnerManagement",
-{
+
     "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
     "author": ["JeffJrShim#2396"],
     "name": "OwnerManagement",
