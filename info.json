@@ -1,10 +1,7 @@
 {
-    "package_name": none,
-    "cog_class_name": rinku,
-    "config_identifier": none,
-    "short": "Special cogs made for Rinku.",
-    "description": "Cogs for Rinku and only Rinku.",
-    "install_msg": "Thanks for installing this repo. If you're not Raiden, please remove the repo immediately.",
-    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
-    "authors": "JeffJrShim;Raiden",
+    "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json",
+    "author": ["JeffJrShim#2396"],
+    "install_msg" : "If you're not Raiden, uninstall this.",
+    "description": "Rinku cogs",
+    "short": "rinku cogs."
 }
