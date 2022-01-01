@@ -32,7 +32,7 @@ class Rinku(commands.Cog):
         mc=len(ctx.guild.members)
         await ctx.send(f"{ctx.guild} currently has {mc} members. With the owner, {ctx.guild.owner}.")
 
-    @commands.command()
+    @commands.command(name="happyaround", alias=["hapiara","rinku"])
     @commands.max_concurrency(1, commands.BucketType.channel)
     async def happyaround(self,ctx):
         """Try it and see."""
